@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19A573a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GlucoseValue" representedClassName="GlucoseValue" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="glucoseReading" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hasTimestamp" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ManualBGReading" representedClassName="ManualBGReading" parentEntity="GlucoseValue" syncable="YES" codeGenerationType="class">
+        <relationship name="has_a" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TimeStamp" inverseName="has_a" inverseEntity="TimeStamp"/>
+    </entity>
+    <entity name="SensorReading" representedClassName="SensorReading" parentEntity="GlucoseValue" syncable="YES" codeGenerationType="class">
+        <relationship name="has_a" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TimeStamp" inverseName="also_has_a" inverseEntity="TimeStamp"/>
+    </entity>
+    <entity name="TimeStamp" representedClassName="TimeStamp" syncable="YES" codeGenerationType="class">
+        <attribute name="time" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="also_has_a" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SensorReading" inverseName="has_a" inverseEntity="SensorReading"/>
+        <relationship name="has_a" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ManualBGReading" inverseName="has_a" inverseEntity="ManualBGReading"/>
+    </entity>
+    <elements>
+        <element name="TimeStamp" positionX="-135.10546875" positionY="-79.5859375" width="128" height="88"/>
+        <element name="GlucoseValue" positionX="203.13671875" positionY="-305.87109375" width="128" height="73"/>
+        <element name="SensorReading" positionX="286.6796875" positionY="-49.22265625" width="128" height="58"/>
+        <element name="ManualBGReading" positionX="123.6953125" positionY="-64.79296875" width="128" height="58"/>
+    </elements>
+</model>

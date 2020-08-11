@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86C3CDCB23770AE8008477DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C3CDCA23770AE8008477DB /* AppDelegate.swift */; };
+		86C3CDCD23770AE8008477DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C3CDCC23770AE8008477DB /* SceneDelegate.swift */; };
+		86C3CDCF23770AE8008477DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C3CDCE23770AE8008477DB /* ViewController.swift */; };
+		86C3CDD223770AE8008477DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C3CDD023770AE8008477DB /* Main.storyboard */; };
+		86C3CDD523770AE8008477DB /* BrianAdvent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86C3CDD323770AE8008477DB /* BrianAdvent.xcdatamodeld */; };
+		86C3CDD723770AEC008477DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C3CDD623770AEC008477DB /* Assets.xcassets */; };
+		86C3CDDA23770AEC008477DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C3CDD823770AEC008477DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86C3CDC723770AE8008477DB /* BrianAdvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrianAdvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C3CDCA23770AE8008477DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86C3CDCC23770AE8008477DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86C3CDCE23770AE8008477DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86C3CDD123770AE8008477DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86C3CDD423770AE8008477DB /* BrianAdvent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrianAdvent.xcdatamodel; sourceTree = "<group>"; };
+		86C3CDD623770AEC008477DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86C3CDD923770AEC008477DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C3CDDB23770AEC008477DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C3CDC423770AE8008477DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C3CDBE23770AE8008477DB = {
+			isa = PBXGroup;
+			children = (
+				86C3CDC923770AE8008477DB /* BrianAdvent */,
+				86C3CDC823770AE8008477DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C3CDC823770AE8008477DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C3CDC723770AE8008477DB /* BrianAdvent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C3CDC923770AE8008477DB /* BrianAdvent */ = {
+			isa = PBXGroup;
+			children = (
+				86C3CDCA23770AE8008477DB /* AppDelegate.swift */,
+				86C3CDCC23770AE8008477DB /* SceneDelegate.swift */,
+				86C3CDCE23770AE8008477DB /* ViewController.swift */,
+				86C3CDD023770AE8008477DB /* Main.storyboard */,
+				86C3CDD623770AEC008477DB /* Assets.xcassets */,
+				86C3CDD823770AEC008477DB /* LaunchScreen.storyboard */,
+				86C3CDDB23770AEC008477DB /* Info.plist */,
+				86C3CDD323770AE8008477DB /* BrianAdvent.xcdatamodeld */,
+			);
+			path = BrianAdvent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86C3CDC623770AE8008477DB /* BrianAdvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C3CDDE23770AEC008477DB /* Build configuration list for PBXNativeTarget "BrianAdvent" */;
+			buildPhases = (
+				86C3CDC323770AE8008477DB /* Sources */,
+				86C3CDC423770AE8008477DB /* Frameworks */,
+				86C3CDC523770AE8008477DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrianAdvent;
+			productName = BrianAdvent;
+			productReference = 86C3CDC723770AE8008477DB /* BrianAdvent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C3CDBF23770AE8008477DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "H M";
+				TargetAttributes = {
+					86C3CDC623770AE8008477DB = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 86C3CDC223770AE8008477DB /* Build configuration list for PBXProject "BrianAdvent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86C3CDBE23770AE8008477DB;
+			productRefGroup = 86C3CDC823770AE8008477DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C3CDC623770AE8008477DB /* BrianAdvent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86C3CDC523770AE8008477DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3CDDA23770AEC008477DB /* LaunchScreen.storyboard in Resources */,
+				86C3CDD723770AEC008477DB /* Assets.xcassets in Resources */,
+				86C3CDD223770AE8008477DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C3CDC323770AE8008477DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3CDCF23770AE8008477DB /* ViewController.swift in Sources */,
+				86C3CDCB23770AE8008477DB /* AppDelegate.swift in Sources */,
+				86C3CDD523770AE8008477DB /* BrianAdvent.xcdatamodeld in Sources */,
+				86C3CDCD23770AE8008477DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86C3CDD023770AE8008477DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C3CDD123770AE8008477DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86C3CDD823770AEC008477DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C3CDD923770AEC008477DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86C3CDDC23770AEC008477DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86C3CDDD23770AEC008477DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C3CDDF23770AEC008477DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349453TN3L;
+				INFOPLIST_FILE = BrianAdvent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HM.BrianAdvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86C3CDE023770AEC008477DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349453TN3L;
+				INFOPLIST_FILE = BrianAdvent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HM.BrianAdvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C3CDC223770AE8008477DB /* Build configuration list for PBXProject "BrianAdvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C3CDDC23770AEC008477DB /* Debug */,
+				86C3CDDD23770AEC008477DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C3CDDE23770AEC008477DB /* Build configuration list for PBXNativeTarget "BrianAdvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C3CDDF23770AEC008477DB /* Debug */,
+				86C3CDE023770AEC008477DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86C3CDD323770AE8008477DB /* BrianAdvent.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86C3CDD423770AE8008477DB /* BrianAdvent.xcdatamodel */,
+			);
+			currentVersion = 86C3CDD423770AE8008477DB /* BrianAdvent.xcdatamodel */;
+			path = BrianAdvent.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86C3CDBF23770AE8008477DB /* Project object */;
+}
